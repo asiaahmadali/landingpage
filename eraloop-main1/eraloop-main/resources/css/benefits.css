@@ -1,0 +1,45 @@
+.services-section {
+    /* background-color: #002653; */
+    background-image: url("../images/Icons/benefits/Bacground-banner.png");
+    background-size: cover;
+    color: white;
+    padding: 60px 0;
+  }
+
+  .service-box {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .service-box img {
+    max-width: 60px;
+    margin-bottom: 20px;
+  }
+
+  .service-box h4 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+
+  .service-box p {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 767px) {
+    .service-box {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .service-box {
+      margin-bottom: 35px;
+    }
+  }

@@ -1,0 +1,538 @@
+
+/* =============== bootstrap css start ================*/
+
+/* =============== bootstrap css start ================*/
+.hero-container{
+  margin-left: 4vw !important;
+}
+.hero-texts {
+    font-size: 1.75rem !important;
+}
+/* @media (min-width: 991px){
+    .hero .hero-texts{
+    }
+} */
+@media (max-width: 1300px){
+  .hero-container{
+    margin-left: 0 !important;
+  }
+    .hero-texts{
+        font-size: 1.25rem !important;
+    }
+}
+@media (max-width: 768px){
+    .hero-texts{
+        font-size: .85rem !important;
+    }
+}
+
+/* =============== navbar css start ================*/
+.header-container .navbar {
+    /* background-color: #0a2351; */
+    background-color: #053471;
+    /* padding: 15px 0; */
+    padding: 10px 15px;
+    margin: 20px 0 30px 0;
+    border-radius: 50px;
+  }
+  .header-container .header-logo {
+      height: 1.5em;
+  }
+  .header-container .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white !important;
+  }
+  .header-container .nav-link {
+    color: white !important;
+    margin-right: 20px;
+  }
+  .header-container .navbar-nav {
+    align-items: center;
+  }
+  .header-container .btn-start-project {
+    background-color: #ff6b6b !important;
+    color: white !important;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+  }
+  .header-container .custom-underline {
+    height: 3px;
+    background-color: #ff6b6b;
+    width: 95%;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  @media (max-width: 768px) {
+      .header-container .header-logo {
+          height: 1.01em;
+      }
+      .navbar-toggler-icon {
+          font-size: 15px;
+      }
+  }
+
+
+  /* dropdown */
+  .custom-dropdown  {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #053471 !important;
+    border: none;
+    border-radius: 0;
+    padding: 1.25rem !important;
+    min-width: 300px;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.dropdown-menu h5 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.dropdown-menu ul li {
+  margin-bottom: 10px;
+}
+.dropdown-menu ul li a {
+  color: #b0b0b0;
+    text-decoration: none;
+}
+/* .show {
+    display: block;
+} */
+.show {
+    display: flex;
+}
+@media (min-width: 768px) {
+    .dropdown-menu {
+        display: none;
+        flex-direction: row;
+        /* min-width: 600px; */
+        /* min-width: 1200px; */
+        /* min-width: 100%; */
+        width: 100%;
+        margin: auto;
+        left: auto;
+        padding: 2.5rem 5rem !important;
+    }
+    .dropdown-menu.show {
+        display: flex !important;
+    }
+    .dropdown-column {
+        flex: 1;
+        padding: 0 15px;
+    }
+}
+
+  /* =============== navbar css end ================*/
+
+  /* =============== hero css end ================*/
+  .hero-common{
+    /* background-color: #053471; */
+    /* padding: 300px 0 !important; */
+    min-height: 35vw;
+
+}
+.hero-content{
+  height: 35vw;
+  /* background-color: red; */
+}
+
+  .about-hero {
+    background: url("../images/hero-svg/Recruitment-website-team-svg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .benefits-hero {
+    background: url("../images/hero-svg/Recruitment-website-team-svg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .services-hero {
+    background: url("../images/hero-svg/Recruitment-website-team-svg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .work-hero {
+    background: url("../images/hero-svg/Recruitment-website-team-svg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .recruitment-hero {
+    background: url("../images/hero-svg/Recruitment-website-team-svg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .website-design-hero {
+    background: url("../images/hero-svg/Recruitment-team-celebrating-svg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .seo-hero {
+    background: url("../images/hero-svg/Recruitment-webiste-Pricing-svg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .social-media-hero {
+    background: url("../images/hero-svg/Recruitment-team-celebrating-svg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .software-recruitment-hero {
+    background: url("../images/hero-svg/Recruitment-website-team-svg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+@media (max-width: 991px) {
+    .hero-common{
+        background-color: transparent;
+        height: 85vw;        
+      }
+      .hero-content{
+        height: 85vw;
+        padding: 0 !important;
+      }
+      .about-hero {
+        background: linear-gradient(0deg, rgba(5, 52, 113, 0.538), rgba(5, 52, 113, 0.55)), url('../images/hero/a9cd78a28e92489af381b31f3934455d.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .services-hero {
+        background: linear-gradient(0deg, rgba(5, 52, 113, 0.538), rgba(5, 52, 113, 0.55)), url('../images/services/services-hero-mobile.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .work-hero {
+        background: linear-gradient(0deg, rgba(5, 52, 113, 0.538), rgba(5, 52, 113, 0.55)), url('../images/work/work-mobile.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .benefits-hero {
+        background: linear-gradient(0deg, rgba(5, 52, 113, 0.538), rgba(5, 52, 113, 0.55)), url('../images/benefits/benefits-hero-mobile.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .recruitment-hero {
+        background: linear-gradient(0deg, rgba(5, 52, 113, 0.538), rgba(5, 52, 113, 0.55)), url('../images/service-banners/Recruitment-team.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .website-design-hero {
+        background: linear-gradient(0deg, rgba(5, 52, 113, 0.538), rgba(5, 52, 113, 0.55)), url('../images/service-banners/Website-design-team.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .seo-hero {
+        background: linear-gradient(0deg, rgba(5, 52, 113, 0.538), rgba(5, 52, 113, 0.55)), url('../images/service-banners/Director-of-local-recruitment-agency.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .social-media-hero {
+        background: linear-gradient(0deg, rgba(5, 52, 113, 0.538), rgba(5, 52, 113, 0.55)), url('../images/service-banners/Recruitment-team-celebrating.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .software-recruitment-hero {
+        background: linear-gradient(0deg, rgba(5, 52, 113, 0.538), rgba(5, 52, 113, 0.55)), url('../images/service-banners/Recruitment-wining-contract.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+  }
+
+  /* Page title */
+  .page-subtitle{
+    max-width: 1016px;
+    margin: 0 auto;
+  }
+
+
+  /* =============== hero css end ================*/
+  
+  /* =============== footer css end ================*/
+  footer {
+    color: white;
+    background: url('../images/logo/footer-vector-2.png');
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+    background-color: #053471;
+    padding: 50px 0 20px;
+    position: relative;
+  }
+
+  .footer-logo-img {
+    height: 40px;
+    width: auto !important;
+    object-fit: contain;
+    margin-right: auto;
+    left: auto;
+  }
+  .footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .footer-input {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+  }
+  .footer-input::placeholder {
+    /* color: rgba(255, 255, 255, 0.5); */
+    color: white !important;
+  }
+  .footer-btn {
+    background-color: #ff6b6b;
+    border: none;
+  }
+  .footer-link {
+    color: white;
+    text-decoration: none;
+  }
+  .colored-link {
+    color: #ff6b6b;
+  }
+  .footer-link:hover {
+    color: #ff6b6b;
+  }
+  .social-icon {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid #ff6f61;
+    color: white;
+    text-decoration: none;
+  }
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 1000;
+    background-color: #ff6b6b !important;
+    border: none !important;
+  }
+  .whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 100px;
+    /* bottom: 20px; */
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+    margin-top: 30px;
+    padding-left: 110px;
+  }
+  
+  @media (max-width: 991px) {
+      .footer-logo-img {
+          height: auto;
+          object-fit: contain;
+          margin-right: auto;
+          /* width: 100% !important; */
+      }
+    }
+  @media (max-width: 768px) {
+      .footer-logo-img {
+          height: 2em;
+          object-fit: contain;
+          margin-right: auto;
+      }
+      .copyright {
+          font-size: 12px;
+          padding-left: 0px;
+      }
+
+      footer {
+        color: white;
+        background: url('../images/logo/footervector.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #053471;
+      }
+  }
+  /* =============== footer css end ================*/
+  
+  
+  /* =============== contact css start ================*/
+  
+.contact-section {
+    background-color: #D9D9D9;
+    /* padding: 50px 0; */
+}
+.contact-title {
+    color: #0a2d5e;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.contact-subtitle {
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+.contact-info {
+    /* background-color: #ffffff; */
+    color: #0a2d5e;
+    font-weight: 600;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.contact-form {
+    background-color: #0a2d5e;
+    padding: 30px;
+    border-radius: 10px;
+}
+.contact-icon {
+    color: #ff6b6b;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+.contact-text {
+    color: #0a2d5e;
+    text-decoration: none;
+}
+
+.info-icon-border {
+    border: 1px solid black;
+    position: absolute;
+    left: 19px;
+    top: 7px;
+    width: 40px;
+    height: 85%;
+    border-radius: 50px;
+}
+
+.form-control {
+    border: 1px solid #ff6b6b !important;
+    background-color: transparent !important;
+    /* color: black !important; */
+    color: white !important;
+    border-radius: 10px !important;
+    padding: 10px !important;
+}
+.form-control::placeholder {
+    color: #ffffff !important;
+    opacity: 0.7 !important;
+}
+.btn-submit {
+    background-color: #ff6b6b !important;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 15px !important;
+    position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.btn-submit:before,
+.btn-submit:after {
+  content: '';
+  display: block;
+  width: 80px; 
+  height: 80px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  top: -20px; 
+  left: 30px; 
+  transform: scale(10);
+  opacity: 1;
+}
+
+.btn-submit:before {
+  animation: beacon 2.4s linear 0.6s infinite;
+}
+
+.btn-submit:after {
+  animation: beacon 1.8s linear infinite;
+}
+
+@keyframes beacon {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+    
+.contact-section {
+    background-color: white;
+    /* padding: 50px 0; */
+}
+.contact-info {
+    background-color: #D9D9D9;
+    padding-top: 50px !important;
+}
+.info-icon-border {
+                  top: 10%;
+                  width: 40px;
+                  height: 80%;
+                  border-radius: 50px;
+}
+    .form-control {
+        background-color: transparent !important;
+        border-radius: 15px !important;
+    }
+
+}
+  /* =============== contact css end ================*/
+  
